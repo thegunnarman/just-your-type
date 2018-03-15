@@ -32,15 +32,28 @@ p {
 
 .repeat {
   color: #ffffff;
+  transform: rotate(30deg);
+  font-family: "Libre Franklin", sans-serif;
 }
+
+.repeat-2 {}
+
+.repeat:nth-child(1) {
+  transform: rotate(10deg);
+
+}
+
+
+
 
 .repeat-2 {
   color: red;
 }
 
 .card:nth-child(3) {
+  transform: rotate(-15deg);
 
-  background-color: #e86033;
+  background-color: red;
 }
 
 span {
@@ -50,4 +63,13 @@ span {
 
 span:hover {
   color: red;
+}
+
+.us{
+  color: red;
+  transition: color 1000ms linear;
+}
+.us:hover{
+  color: orange;
+  transition: color 1000ms linear;
 }
