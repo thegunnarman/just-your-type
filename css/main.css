@@ -1,4 +1,3 @@
-
 html {
   font-family: "Libre Franklin", sans-serif;
   font-family: "Libre Baskerville", serif;
@@ -15,7 +14,6 @@ html {
   font-family: "Alfa Slab One", cursive;
 }
 
-
 p {
   font-family: "Libre Baskerville", serif;
 }
@@ -27,24 +25,18 @@ p {
 
 .card:nth-child(2) {
 
-  background-color: #333333;
+  background-color: #333;
 }
 
 .repeat {
-  color: #ffffff;
+  color: #fff;
   transform: rotate(30deg);
   font-family: "Libre Franklin", sans-serif;
 }
 
-.repeat-2 {}
-
 .repeat:nth-child(1) {
   transform: rotate(10deg);
-
 }
-
-
-
 
 .repeat-2 {
   color: red;
@@ -52,7 +44,6 @@ p {
 
 .card:nth-child(3) {
   transform: rotate(-15deg);
-
   background-color: red;
 }
 
@@ -65,11 +56,12 @@ span:hover {
   color: red;
 }
 
-.us{
+.us {
   color: red;
   transition: color 1000ms linear;
 }
-.us:hover{
+
+.us:hover {
   color: orange;
   transition: color 1000ms linear;
 }
