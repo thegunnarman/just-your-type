@@ -27,10 +27,27 @@ p {
 
 .card:nth-child(2) {
 
-  background-color: #fbd25e;
+  background-color: #333333;
+}
+
+.repeat {
+  color: #ffffff;
+}
+
+.repeat-2 {
+  color: red;
 }
 
 .card:nth-child(3) {
 
   background-color: #e86033;
+}
+
+span {
+  color: orange;
+  transition: color 1000ms linear;
+}
+
+span:hover {
+  color: red;
 }
