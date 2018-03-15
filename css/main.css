@@ -5,13 +5,14 @@ html {
   font-family: "Alfa Slab One", cursive;
 }
 
-h1 {
+.watermellon {
   transform: none;
   font-family: "Libre Franklin", sans-serif;
 }
 
-h2{
+.watermellonss {
   transform: rotate(20deg);
+  font-family: "Alfa Slab One", cursive;
 }
 
 
@@ -24,6 +25,12 @@ p {
   background-color: #a6a6a6;
 }
 
-.bigwords-1  {
-  font-family: "Alfa Slab One", cursive;
+.card:nth-child(2) {
+
+  background-color: #fbd25e;
+}
+
+.card:nth-child(3) {
+
+  background-color: #e86033;
 }
