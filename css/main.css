@@ -7,20 +7,23 @@ html {
 .watermellon {
   transform: none;
   font-family: "Libre Franklin", sans-serif;
+  color: #fff;
 }
 
 .watermellonss {
   transform: rotate(20deg);
   font-family: "Alfa Slab One", cursive;
+  color: #fff;
 }
 
 p {
   font-family: "Libre Baskerville", serif;
+  color: #fff;
 }
 
 .card {
 
-  background-color: #a6a6a6;
+  background-color: #333;
 }
 
 .card:nth-child(2) {
